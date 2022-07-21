@@ -39,7 +39,7 @@ class Solution:
             if str[i] == '.':
                 k += 1
         
-        result = 0
+        result = 1
 
         for i in range (24, 24+c):
             result *= i
